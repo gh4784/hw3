@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.nav1 {
+    height: 40px;
+    background-color: rgb(36, 36, 75);
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.nav1 .container {
+    font-weight: 500;
+    width: 11000px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.language select {
+    background-color: #001a38;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    height: 26px;
+    border: none;
+    padding: 0px 8px;
+    border-radius: 2px;
+  }
+
+  .signup,
+  .login {
+    background-color: #387bc8;
+    color: white;
+    padding: 8px 0px 8px 0px;
+    height: 26px;
+    border-radius: 2px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    text-align: center;
+  }
+  
+  .signup {
+    width: 80px;
+  }
+  
+  .login {
+    width: 65px;
+  }
+
+
+  .nav2 {
+    height: 90px;
+    background-color: #001a38;
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .nav2 .container {
+    color: white;
+    width: 11000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo{
+    width: 99px;
+    height: auto;
+}
+
+  .menues {
+    display: flex;
+    align-items: center;
+  }
+  .menu {
+    margin-left: 60px;
+  }
+
+  .search-box {
+    background-color: #ffed4f;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-box form {
+    display:flex
+  }
+  
+  .search-box input[type="text"] {
+    width: 500px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+     }
+  
+  .search-box button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+     }
